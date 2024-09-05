@@ -1,6 +1,6 @@
 # Análisis personal Antonia Correa 
 
-## ¿Por qué es relevante para ti realizar este tema?**
+## ¿Por qué es relevante para ti realizar este tema?
 
 Es importante para mí realizar este tema porque no hay una base de datos que se encargue de informar sobre esto aún. Además creo que es un tema poco visibilizado tanto por la propia industria urbana aún dominada por hombres, como para los oyentes que somos nosotros. Darle cabida a las mujeres en la industria musical urbana permite que esta se expanda e inspire a más talentos femeninos a poder crear su música, y consolida a referentes como pioneras del género, esto permite reconocerles como las primeras mujeres en luchar por un puesto en la industria musical urbana. 
 
@@ -16,7 +16,7 @@ El impacto que busco que genera, es de sorpresa en quienes ignoren este tema, y 
 
 - **Percepción de los chilenos sobre el auge de las mujeres:** Creo que este sería más una comparación de la percepción que nosotros tenemos sobre una industria femenina a la que tienen otros países como por ejemplo EE.UU que ya tienen una industria consolidada. Esto me gustaría realizarlo con gráficos interactivos.
 
-## ¿Qué te gustaría aprender en este proyecto?**
+## ¿Qué te gustaría aprender en este proyecto?
 
 Me gustaría aprender a mostrar información dura de una forma entretenida y visualmente llamativa para la audiencia. Me gustaría también adquirir las herramientas necesarias para llevar esto a cabo, y poder ser capaz de luego crear mis propios proyectos desde github en la web. Además otra de mis metas con este trabajo es aprender cómo organizar la información de forma correcta y con qué programas trabajar para hacerlo más eficiente.
 
