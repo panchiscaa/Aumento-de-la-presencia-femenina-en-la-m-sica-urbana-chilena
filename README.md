@@ -122,6 +122,9 @@ La historia máxima podría no solo cubrir el crecimiento de estas artistas, sin
 
 Estos elementos digitales serán cruciales para presentar los datos de manera visualmente atractiva y comprensible, permitiendo una narrativa coherente y envolvente del auge de las mujeres en la música urbana chilena.
 
+# [Link al video explicativo](https://uccl0-my.sharepoint.com/:v:/g/personal/valentinarojasf_uc_cl/EebDxEp0E_NCnHvSznCUX1sBOkVf7YNsNVpxxJ7P-0q0Xg?e=fwwesh)
+
+
 
 
 
