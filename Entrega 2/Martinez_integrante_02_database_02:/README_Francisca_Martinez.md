@@ -1,6 +1,6 @@
 # README Francisca Martínez
 
-A mi me toco hacer la preparación y limpieza de datos 2 un nuestro proyecto llamada: **Preencia femenina actual en la industria urbana chilena**
+A mi me toco hacer la preparación y limpieza de datos 2 un nuestro proyecto llamada: **Presencia femenina actual en la industria urbana chilena**
 
 Para la entrega 1 comenzamos con una lista de mujeres que forman parte de la industria de la música chilena urbana. Teniendo información clave (en pdf y en CVS) de cada una. Esta infromación contemplaba un resumen de la artista en:
 
@@ -10,7 +10,7 @@ Para la entrega 1 comenzamos con una lista de mujeres que forman parte de la ind
 - Tiktok
 - De su audiencia
 
-Toda esta información fue recolestada gracias a la web Chartmetric (donde se puede descargar un archivo en CVS) y recopilamos infromación de las siguientes artistas:
+Toda esta información fue recolectada gracias a la página web Chartmetric (donde se puede descargar el archivo en CVS) y recopilamos infoomación de las siguientes artistas:
 
 1. Paloma Mami
 2. Princesa Alba
@@ -50,40 +50,40 @@ Durante la exploración, identifiqué algunas variables que no eran relevantes p
 - Rango de Compromiso
 - Rango de Base de Fans
 - Nombre del Rango por País
-- Rango de seguidores en Spotify
-- Popularidad en spotify
-- Alcance total de playlist en spotify
-- Relación alcance de playlist con seguidores en spotify
-- Relación oyentes-seguidores en spotify
-- Tasa de conversión de fans en spotify
+- Rango de Seguidores en Spotify
+- Popularidad en Spotify
+- Alcance Total de PlaylistS en Spotify
+- Relación Alcance de PlaylistS con Seguidores en Spotify
+- Relación Oyentes-Seguidores en Spotify
+- Tasa de Conversión de Fans en Spotify
 - Fans en Deezer
-- Rango de fans en deezer
-- Rango de seguidores en instagram
-- Vistas en youtube
-- Suscrptores en youtube
-- Vistas diarias de videos en youtube
-- Vistas mensuales de videos en youtube
+- Rango de Fans en deezer
+- Rango de Seguidores en Instagram
+- Vistas en Youtube
+- Número de Suscriptores en Youtube
+- Vistas Diarias de Videos en Youtube
+- Vistas Mensuales de Videos en Youtube
 - Seguidores en Tiktok
-- Rango de seguidores en Twitch
-- Stream en Pandora
-- Rango de streams en Pandora
-- Oyentes mensuales en Pandora
-- Rango de oyentes mensuales en Pandora
-- Estaciones de artistas en Pandora
-- Rango de estaciones de artistas en Pandora
-- Likes del artista en Line Music
-- Rango de Likes del artista en Line Music
+- Rango de Seguidores en Twitch
+- Streams en Pandora
+- Rango de Streams en Pandora
+- Oyentes Mensuales en Pandora
+- Rango de Oyentes Mensuales en Pandora
+- Estaciones de Artistas en Pandora
+- Rango de Estaciones de Artistas en Pandora
+- Likes del Artista en Line Music
+- Rango de Likes del Artista en Line Music
 - Likes en Line Music
 - Rango de Likes en Line Music
-- Vistas de video en Line Music
-- Rango de Vistas de video en Line Music
+- Vistas de Video en Line Music
+- Rango de Vistas de Videos en Line Music
 - Fans en Melon
 - Rango de Fans en Melon
-- Me gustas en Melón
+- Me Gustas en Melón
 - Rango de Me gustas en Melón
-- Likes de videos en Melón
-- Vistas de videos en Melón
-- Rango de Vistas de videos en Melón
+- Likes de Videos en Melón
+- Vistas de Videos en Melón
+- Rango de Vistas de Videos en Melón
 
 ### 3. Normalización de Datos
 
