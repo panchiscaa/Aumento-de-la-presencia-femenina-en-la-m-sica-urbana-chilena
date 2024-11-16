@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-6ebe1289587a2a758db89eb21e8a3f2c"}, "mark": "bar", "encoding": {"tooltip": [{"field": "Nombre del artista", "type": "nominal"}, {"field": "Oyentes mensuales en Spotify", "type": "quantitative"}], "x": {"field": "Nombre del artista", "sort": "-y", "title": "Nombre del artista", "type": "nominal"}, "y": {"field": "Oyentes mensuales en Spotify", "title": "Oyentes mensuales en Spotify", "type": "quantitative"}}, "height": 400, "title": "Oyentes mensuales en Spotify por Nombre del artista", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-6ebe1289587a2a758db89eb21e8a3f2c": [{"Nombre del artista": "Paloma Mami", "Oyentes mensuales en Spotify": 4437560, "Seguidores en spotify (aprox)": 1100000, "Seguidores en Instagram (aprox)": 4300000}, {"Nombre del artista": "Princesa Alba", "Oyentes mensuales en Spotify": 971128, "Seguidores en spotify (aprox)": 228000, "Seguidores en Instagram (aprox)": 659000}, {"Nombre del artista": "Akriila", "Oyentes mensuales en Spotify": 640008, "Seguidores en spotify (aprox)": 50000, "Seguidores en Instagram (aprox)": 103000}, {"Nombre del artista": "Soulfia", "Oyentes mensuales en Spotify": 902244, "Seguidores en spotify (aprox)": 37000, "Seguidores en Instagram (aprox)": 160000}, {"Nombre del artista": "Loyaltty", "Oyentes mensuales en Spotify": 136606, "Seguidores en spotify (aprox)": 13000, "Seguidores en Instagram (aprox)": 145000}, {"Nombre del artista": "Akatumami", "Oyentes mensuales en Spotify": 41910, "Seguidores en spotify (aprox)": 17000, "Seguidores en Instagram (aprox)": 43600}, {"Nombre del artista": "Kuina", "Oyentes mensuales en Spotify": 104421, "Seguidores en spotify (aprox)": 17000, "Seguidores en Instagram (aprox)": 50000}, {"Nombre del artista": "Flor de Rap", "Oyentes mensuales en Spotify": 167930, "Seguidores en spotify (aprox)": 70000, "Seguidores en Instagram (aprox)": 394000}, {"Nombre del artista": "Anita Tijoux", "Oyentes mensuales en Spotify": 851843, "Seguidores en spotify (aprox)": 444000, "Seguidores en Instagram (aprox)": 663000}, {"Nombre del artista": "Tomasa del Real", "Oyentes mensuales en Spotify": 71116, "Seguidores en spotify (aprox)": 72000, "Seguidores en Instagram (aprox)": 122000}, {"Nombre del artista": "Blue Mary", "Oyentes mensuales en Spotify": 31132, "Seguidores en spotify (aprox)": 13000, "Seguidores en Instagram (aprox)": 844000}, {"Nombre del artista": "Lizz", "Oyentes mensuales en Spotify": 29387, "Seguidores en spotify (aprox)": 19000, "Seguidores en Instagram (aprox)": 120000}, {"Nombre del artista": "KYA", "Oyentes mensuales en Spotify": 80259, "Seguidores en spotify (aprox)": 6800, "Seguidores en Instagram (aprox)": 29100}, {"Nombre del artista": "Shirel", "Oyentes mensuales en Spotify": 53999, "Seguidores en spotify (aprox)": 8400, "Seguidores en Instagram (aprox)": 38400}, {"Nombre del artista": "Aura BAE", "Oyentes mensuales en Spotify": 71212, "Seguidores en spotify (aprox)": 19000, "Seguidores en Instagram (aprox)": 37200}, {"Nombre del artista": "Fran Maira", "Oyentes mensuales en Spotify": 376069, "Seguidores en spotify (aprox)": 22000, "Seguidores en Instagram (aprox)": 770000}, {"Nombre del artista": "Amikiraa", "Oyentes mensuales en Spotify": 12401, "Seguidores en spotify (aprox)": 3600, "Seguidores en Instagram (aprox)": 9837}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
