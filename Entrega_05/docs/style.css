@@ -1,0 +1,653 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+@import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap);
+
+/* Override UGG site */
+#main {width: 100%; padding:0;}
+.content-asset p {margin:0 auto;}
+.breadcrumb {display:none;}
+
+/* Helpers */
+/**************************/
+.margin-top-10 {padding-top:10px;}
+.margin-bot-10 {padding-bottom:10px;}
+
+/* Typography */
+/**************************/
+#parallax-world-of-ugg h1 {font-family:'Anton', serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax-world-of-ugg h2 {font-family:'Anton', serif; font: size 50px; text-align:center; color:#000; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
+#parallax-world-of-ugg h3 {font-family:'Anton', serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+#parallax-world-of-ugg p {font-family: "Work Sans", sans-serif; font-weight:400; font-size:19px; line-height:24px; text-align: justify; color: #000;} /* Añadido para los párrafos */
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {background: #ffbbda; padding: 60px; margin:0 auto; text-align:center;}
+#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {background: #ffbbda; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+#parallax-world-of-ugg .block-gray {background: #ffbbda;padding: 60px;}
+#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #ffbbda; opacity: 0.70;}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("logo.png"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://i.scdn.co/image/ab6761610000e5ebc55bd5c7a13d3cb1390bc55e); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://i0.wp.com/expectador.cl/wp-content/uploads/2024/08/horizontalshow10-1.jpg?resize=1020%2C600&ssl=1); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://www.latercera.com/resizer/v2/6ELMJZVGKFDD7C2ITGR7DDWQMQ.JPG?quality=80&smart=true&auth=e4cd597723dd678882b92597eabd88847df15047f8ac3f144304093b9a98d655&width=1200&height=900); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://setlist.cl/wp-content/uploads/2023/08/SetlistCL-00-ImagenDestacada-Katteyes.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://www.latercera.com/resizer/v2/R5H4YHEFDRH5PDKCHNZTL2QBUE.jpg?quality=80&smart=true&auth=2a825bf29c029e7e0ab4a0e8218c8ed7187b6f6d4511a2aa3070ba06834094d7&width=1200&height=630); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-seven {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://i.ytimg.com/vi/jW-lQ9WfOF8/maxresdefault.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+
+/* Extras */
+#parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg .block {padding: 30px;}
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+}
+
+/* Nuevos estilos para el menú hamburguesa */
+body {
+    margin: 0; /* Espacio para el menú fijo */
+    background-color: #ffbbda
+}
+
+#topMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffbbda; /* Fondo rosado */
+    z-index: 1000;
+}
+
+#menuToggle {
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+#menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+
+#menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    background: #232323; /* Líneas negras */
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+                background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+                opacity 0.55s ease;
+}
+
+#menuToggle input:checked ~ span {
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+}
+
+#menu {
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 95vh;
+    background: #532656; /* Fondo negro */
+    color: #ffbbda; /* Texto rosado */
+    padding-top: 100px;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+#menuToggle input:checked ~ ul {
+    transform: translateX(0);
+}
+
+#menu li {
+    padding: 10px 20px;
+    font-size: 22px;
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: "Anton", serif;
+    color: #ffbbda; /* Texto rosado */
+    transition: color 0.3s ease;
+}
+
+#menu a:hover {
+    color: #ff80a2; /* Más claro al pasar el cursor */
+}
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    /*Removing touch highlights on smartphones*/
+  
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding-top: 0;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .main-wrapper {
+    max-width: 1662px;
+    margin: 0 auto;
+  }
+  
+  /* SLIDE LAYOUT*/
+  .sl-wrapper {
+    position: relative;
+  }
+  .sl-nav {
+    position: relative;
+    width: 100px;
+    height: 60px;
+  }
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev,
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    background-image: url();
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 35px;
+  }
+  
+  /*-------------------------------------------------------*/
+  /* Card Bkg Img
+  /*-------------------------------------------------------*/
+  
+  .sl-bkg-img,
+  .sl-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .sl-img-1 {
+    background-image: url("https://images2.mega.cl/mega/2024/09/04/_177807_2_66d88e1eb3458.jpg");
+  }
+  .sl-img-2 {
+    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/copesa/5DB27RJMYJCEPAUR6LEN4NQY4U.jpg");
+  }
+  .sl-img-3 {
+    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/palco/TRP2DAW4AFE2VK743WKXHIPSKE.jpg");
+  }
+  .sl-img-4 {
+    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/copesa/33ZO6WBSVZEKTEARLRY7JMRFN4.JPG");
+  }
+  .sl-img-5 {
+    background-image: url("https://yt3.googleusercontent.com/Hy7Z6BewQEdO_IQX84sfeLgNf28EbBUBPfOgWphYVSGdVrjnRKATempxsaJDzUtWMtGQVKustcw=s900-c-k-c0x00ffffff-no-rj");
+  }
+  .sl-img-6 {
+    background-image: url("https://premiospulsar.cl/sitio/wp-content/uploads/2024/02/Copia-de-D5C301B5-CC23-4B47-8344-3600F6775034-scaled-e1709066770192-1200x1200.jpeg");
+  }
+  .sl-img-7 {
+    background-image: url("https://cdn-images.dzcdn.net/images/artist/554ce7c075a92cec3066e3c61f9090ae/1900x1900-000000-80-0-0.jpg");
+  }
+  .sl-img-8 {
+    background-image: url("https://cdn-images.dzcdn.net/images/artist/3b9c7d40bfb412c89c95f09c7737c797/1900x1900-000000-80-0-0.jpg");
+  }
+  .sl-img-9 {
+    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/palco/J2DPI3GD5FGKTKBVIOO33QJPUQ.png");
+  }
+  .sl-img-10 {
+    background-image: url("https://soloartistaschilenos.cl/wp-content/uploads/2024/01/vistodkitschymargienmisfeet-819x1024.jpg");
+  }
+  .sl-gradient {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/614007/gradient.png");
+    z-index: 1;
+  }
+  /*-------------------------------------------------------*/
+  /* Card Content
+  /*-------------------------------------------------------*/
+  
+  .sl--content-container {
+    position: absolute;
+    background-color: #ffffff;
+  }
+  .sl--content-container h2 {
+    text-transform: uppercase;
+  }
+  .sl--sub-text {
+    font-weight: 300;
+  }
+  .content-reveal-btn {
+    background-color: #532656;
+  }
+  .sl--show-card-info,
+  .sl--close-card-info {
+    fill: #ffffff;
+  }
+  .sl--show-card-info {
+    transform: scale(0.6, 0.6);
+    -webkit-transition: transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .sl--close-card-info {
+    -ms-transform: rotate(45deg) scale(0.6, 0.6);
+    -webkit-transform: rotate(45deg) scale(0.6, 0.6);
+    transform: rotate(45deg) scale(0.6, 0.6);
+    -webkit-transition: transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  /*--------------------------
+  
+       Media Queries 
+  
+  --------------------------*/
+  /*    Mobile    */
+  
+  @media only screen and (min-width: 320px) {
+    /* 320px */
+  
+    /*-------------------------------------------------------*/
+    /* SL Header: 320
+      /*-------------------------------------------------------*/
+    .sl-header-wrapper {
+      padding: 0 18px;
+    }
+    .sl-header-wrapper h3 {
+      font-size: 50px;
+      font-weight: 900;
+      line-height: 80%;
+      letter-spacing: -1.4px;
+      margin: 10px 0;
+    }
+    .sl-header-wrapper h4 {
+      font-weight: 500;
+      text-transform: uppercase;
+      margin: 0;
+      line-height: 100%;
+      letter-spacing: -1.4px;
+      word-spacing: 2.4px;
+    }
+    .sl-header-wrapper p {
+      font-weight: 300;
+    }
+  
+    /*-------------------------------------------------------*/
+    /* Prev/Next Slide Cover: 320
+      /*-------------------------------------------------------*/
+    .sl-nav {
+      display: none;
+    }
+    .swiper-slide-prev .slide-cover,
+    .swiper-slide-next .slide-cover,
+    .slide-cover {
+      background-color: #ffffff;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      z-index: 2;
+      opacity: 0.75;
+      -webkit-transition: opacity 300ms;
+      transition: opacity 300ms;
+      visibility: visible;
+    }
+    .swiper-slide-active .slide-cover {
+      position: absolute;
+      opacity: 0;
+      -webkit-transition: visibility 0s 0.5s, opacity 300ms;
+      transition: visibility 0s 0.5s, opacity 300ms;
+      height: 100%;
+      width: 100%;
+      background-color: #ffffff;
+      z-index: 2;
+      visibility: hidden;
+    }
+  
+    /*-------------------------------------------------------*/
+    /* Swiper: 320
+      /*-------------------------------------------------------*/
+  
+    .swiper-container {
+      width: 95%;
+      height: 100%;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
+    /*-------------------------------------------------------*/
+    /* Card: 320
+      /*-------------------------------------------------------*/
+  
+    .sl-card-wrapper {
+      position: relative;
+      height: 540px;
+      overflow: hidden;
+    }
+    /*-------------------------------------------------------*/
+    /* Card Bkg Img: 320
+      /*-------------------------------------------------------*/
+  
+    .sl-gradient {
+      background-position: center 210px;
+    }
+    .sl-bkg-img {
+      background-size: cover;
+      background-position: center top;
+    }
+    /*-------------------------------------------------------*/
+    /* Card Content: 320
+      /*-------------------------------------------------------*/
+  
+    .sl--content-wrapper {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      -webkit-transition: width 250ms, height 250ms;
+      transition: width 250ms, height 250ms;
+      overflow: hidden;
+    }
+    .sl--content-wrapper-inactive {
+      width: 101%;
+      height: 541px;
+    }
+    .sl--content-wrapper-active {
+      width: 101%;
+      height: 100%;
+    }
+    .sl--content-container {
+      width: 100%;
+      height: auto;
+      padding-left: 16px;
+      padding-right: 16px;
+      z-index: 1;
+    }
+    .sl--card-hide {
+      transform: translate(0, 410px);
+      -webkit-transition: transform 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86),
+        width 250ms;
+      transition: transform 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86),
+        width 250ms;
+      height: 568px;
+    }
+    .sl--card-reveal {
+      transform: translate(0, 0);
+      -webkit-transition: transform 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86),
+        width 250ms;
+      transition: transform 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86),
+        width 250ms;
+      height: 100%;
+      width: 100%;
+      overflow: auto;
+      /*padding: 100px 0px;*/
+      padding-top: 20px;
+      padding-bottom: 100px;
+    }
+    .sl--content-container h2 {
+      font-size: 30px;
+      word-spacing: 2px;
+      letter-spacing: -1.4px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .sl--sub-text {
+      margin-bottom: 0;
+      -webkit-transition: margin 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      transition: margin 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    }
+    .sl--card-reveal .sl--sub-text {
+      margin-top: 12%;
+    }
+    .sl--content-container .sl--card-content {
+      font-weight: 300;
+      margin-top: 15px;
+      overflow-y: auto;
+    }
+    .sl--link {
+      color: #04b7ac;
+      margin-bottom: 15px;
+    }
+    .sl--card-nav-container {
+      position: absolute;
+      width: 100%;
+      height: 70px;
+      z-index: 1;
+      bottom: 0;
+      /*background-color: #ffffff;*/
+      background-image: linear-gradient(0deg, #f5f5f5, hsla(37, 87%, 97%, 0));
+    }
+    .sl--content-btn {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 37px;
+      height: 37px;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .content-hide-btn {
+      transform: scale(0, 0);
+    }
+  }
+  @media only screen and (min-width: 375px) {
+    /* 375 */
+    /*-------------------------------------------------------*/
+    /* Card Bkg Img: 375
+      /*-------------------------------------------------------*/
+  
+    .sl-gradient {
+      background-position: center 300px;
+    }
+  
+    /*-------------------------------------------------------*/
+    /* Card Content: 375
+      /*-------------------------------------------------------*/
+  
+    .sl-card-wrapper,
+    .sl--content-wrapper-inactive {
+      height: 600px;
+    }
+    .sl--content-wrapper-inactive {
+      width: 91%;
+    }
+    .sl--content-container {
+      height: 372px;
+    }
+    .sl--card-reveal {
+      height: 100%;
+      width: 100%;
+    }
+    .sl--card-hide {
+      transform: translate(0, 465px);
+      height: 667px;
+    }
+    /*@-moz-document url-prefix() {
+          .sl--card-hide {
+              color: red;
+              transform: translate(0, 265px);
+              border: red 5px solid;
+          }
+          
+      }*/
+  }
+  @media only screen and (min-width: 414px) {
+    /* 414 */
+    /*-------------------------------------------------------*/
+    /* SL Header: 414
+      /*-------------------------------------------------------*/
+    .sl-header-wrapper h3 {
+      font-size: 55px;
+    }
+  
+    /*-------------------------------------------------------*/
+    /* Card Content: 414
+      /*-------------------------------------------------------*/
+    .sl-card-wrapper,
+    .sl--content-wrapper-inactive {
+      height: 650px;
+    }
+    .sl--card-hide {
+      height: 740px;
+      transform: translate(0, 495px);
+    }
+  }
+  @media only screen and (min-width: 568px) {
+    /* 568 */
+  }
+  @media only screen and (min-width: 667px) {
+    /* 667px */
+  }
+  @media only screen and (min-width: 736px) {
+    /* 736px */
+  }
+  /*Tablet*/
+  
+  @media only screen and (min-width: 768px) {
+    /* 768 */
+    /*-------------------------------------------------------*/
+    /* SL Main Container: 768
+      /*-------------------------------------------------------*/
+  
+    /*-------------------------------------------------------*/
+    /* SL Header: 768
+      /*-------------------------------------------------------*/
+    .sl-header-wrapper {
+      padding: 0 5%;
+    }
+    .sl-header-wrapper h3 {
+      width: 300px;
+      font-size: 65px;
+    }
+    .sl-header-wrapper p {
+      width: 505px;
+    }
+  
+    /*-------------------------------------------------------*/
+    /* Swiper: 768
+      /*-------------------------------------------------------*/
+    .swiper-container {
+      width: 690px;
+    }
+  
+    /*-------------------------------------------------------*/
+    /* Card Content: 768
+      /*-------------------------------------------------------*/
+    .sl-card-wrapper {
+      width: 325px;
+      height: 540px;
+    }
+    .sl--content-wrapper-inactive {
+      width: 290px;
+      height: 100%;
+    }
+    .sl--content-wrapper-active {
+      width: 101%;
+    }
+    .sl--card-hide {
+      transform: translate(0, 375px);
+    }
+    .sl-gradient {
+      background-position: center 185px;
+    }
+  }
+  /*    Desktop    */
+  
+  @media only screen and (min-width: 1024px) {
+    /* 1024 */
+    /*-------------------------------------------------------*/
+    /* Main Wrapper: 1024
+      /*-------------------------------------------------------*/
+  
+    /*-------------------------------------------------------*/
+    /* SL Main Container: 1024
+      /*-------------------------------------------------------*/
+  
+    /*-------------------------------------------------------*/
+    /* SL Header: 1024
+      /*-------------------------------------------------------*/
+    .sl-header-wrapper {
+      padding: 50px 2% 0 5%;
+      width: 500px;
+      display: inline-block;
+      float: left;
+    }
+    .sl-header-wrapper p {
+      width: 100%;
+    }
+  
+    /*-------------------------------------------------------*/
+    /* Swiper: 1024
+      /*-------------------------------------------------------*/
+    .sl-wrapper {
+      height: 540px;
+      width: 522px;
+      display: inline-block;
+    }
+  
+    .swiper-container {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(0, -50%);
+      width: 505px;
+      height: 540px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: block;
+    }
+  
+    /*-------------------------------------------------------*/
+    /* Prev/Next Slide Cover: 1024
+      /*-------------------------------------------------------*/
+    .sl-nav {
+      display: block;
+    }
+  }
+  @media only screen and (min-width: 1140px) {
+    /* 1140 */
+  }
+  @media only screen and (min-width: 1440px) {
+    /* 1440 */
+    /*-------------------------------------------------------*/
+    /* Slide Layout: 1024
+      /*-------------------------------------------------------*/
+    .sl-main-container {
+      width: 1440px;
+    }
+    .sl-wrapper,
+    .swiper-container {
+      width: 920px;
+    }
+  }
