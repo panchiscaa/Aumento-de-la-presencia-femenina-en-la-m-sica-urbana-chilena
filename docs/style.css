@@ -18,7 +18,7 @@
 #parallax-world-of-ugg h1 {font-family:'Anton', serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
 #parallax-world-of-ugg h2 {font-family:'Anton', serif; font: size 50px; text-align:center; color:#000; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
 #parallax-world-of-ugg h3 {font-family:'Anton', serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
-#parallax-world-of-ugg p {font-family: "Work Sans", sans-serif; font-weight:400; font-size:19px; line-height:24px; text-align: justify; color: #000;} /* Añadido para los párrafos */
+#parallax-world-of-ugg p {font-family: "Work Sans", sans-serif; font-weight:400; font-size:19px; line-height:24px; text-align: left; color: #000;} /* Añadido para los párrafos */
 
 /* Section - Title */
 /**************************/
@@ -557,7 +557,7 @@ body {
     /* Swiper: 768
       /*-------------------------------------------------------*/
     .swiper-container {
-      width: 690px;
+      width: 90%;
     }
   
     /*-------------------------------------------------------*/
@@ -620,7 +620,7 @@ body {
       top: 50%;
       right: 0;
       transform: translate(0, -50%);
-      width: 505px;
+      width: 90%;
       height: 540px;
     }
     .swiper-button-next,
@@ -644,10 +644,10 @@ body {
     /* Slide Layout: 1024
       /*-------------------------------------------------------*/
     .sl-main-container {
-      width: 1440px;
+      width: 100%;
     }
     .sl-wrapper,
     .swiper-container {
-      width: 920px;
+      width: 90%;
     }
   }
